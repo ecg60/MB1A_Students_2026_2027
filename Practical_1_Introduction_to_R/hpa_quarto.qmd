@@ -1,0 +1,15 @@
+---
+title: "Human Protein Atlas brain summary"
+author: "Emily Gunn"
+---
+
+Here is a sum of the number of genes with regionally elevated expression in the forebrain region of humans pigs and mice
+
+```{r}
+human <- sum(180, 83, 57, 110)
+pig <- sum(190, 157, 31, 45)
+mouse <- sum(55, 185, 60, 98)
+
+print(paste("humans have", human, "genes with regionally elevated expression, pigs have", pig, "and mice have", mouse ))
+```
+Humans have more genes with regionally elevated expression.
