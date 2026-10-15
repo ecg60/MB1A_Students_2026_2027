@@ -1,0 +1,53 @@
+---
+title: "Practical 1 Part 3 and 4 exercises"
+author: "Emily Gunn"
+---
+
+
+```{r}
+sqrt(9)
+#square root function
+```
+
+```{r}
+round(3.14159)
+#round function 
+```
+```{r}
+round(3.14159, digits = 2)
+#round, and digits = number d.p
+```
+
+```{r}
+print(seq(1, 10, 2))
+# first number = from second number = to third number = increments
+```
+```{r}
+print(rep(5, 7))
+# 1st=whats repeated 2nd=how many times
+print(rep(x=5, times=7))
+```
+
+
+```{r}
+x <- 1
+y <- "hi"
+z <- TRUE
+print(paste(x,y,z))
+print(paste(class(x), class(y), class(z)))
+```
+```{r}
+
+cell_id_1 <- "CX1"
+cell_id_2 <- "CX2"
+
+treated_1 <- TRUE
+treated_2 <- FALSE
+
+n_before_1 <- 5415
+n_before_2 <- 8123
+
+n_after_1 <- 1432
+n_after_2 <- 7543
+```
+
